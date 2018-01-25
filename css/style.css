@@ -1,0 +1,24 @@
+canvas {
+	position: absolute; /*removing the ugly scrollbars */
+	top: 0; /* by making the body element have the width */
+	left: 0; /* of 0, because of position: absolute; */
+}
+
+body {
+	margin: 0;
+	background-color: #17182f;
+}
+
+canvas {
+	display: block;
+	vertical-align: bottom;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
